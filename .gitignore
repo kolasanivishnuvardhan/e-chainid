@@ -1,0 +1,16 @@
+# Secrets
+keys.txt
+
+# Archives / installers / large binaries (keep out of source control)
+*.zip
+*.exe
+*.msi
+*.pdf
+*.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Optional: dotenv files anywhere
+**/.env

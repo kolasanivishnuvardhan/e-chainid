@@ -1,0 +1,15 @@
+{
+  "name": "echain-id-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run --network ganache scripts/deploy.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.12.0",
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.0"
+  }
+}

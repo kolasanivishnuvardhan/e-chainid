@@ -1,0 +1,13 @@
+node_modules
+frontend/node_modules
+.env
+
+# Hardhat build outputs
+artifacts/
+cache/
+
+# React production build output (generated)
+frontend/build/
+
+# Local deployment output (environment-specific)
+deployed-address.txt
